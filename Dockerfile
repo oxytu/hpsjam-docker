@@ -19,7 +19,7 @@ RUN git clone https://github.com/hselasky/hpsjam
 
 WORKDIR hpsjam
 
-RUN git checkout v1.0.11
+RUN git checkout v1.0.14
 
 RUN QMAKE_CFLAGS_ISYSTEM="" qmake PREFIX=/usr QMAKE_CFLAGS_ISYSTEM="" && \
     make all && \
